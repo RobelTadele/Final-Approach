@@ -1,0 +1,7 @@
+pytz            
+python-dateutil
+pandas          
+matplotlib      
+numpy        
+packaging
+Pillow

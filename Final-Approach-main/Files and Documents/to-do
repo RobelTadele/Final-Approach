@@ -1,0 +1,31 @@
+
+# ! If folder exists in partitioned folder and program is ran again it is freezing 
+# ! If files exist new copy will be made not ideal
+# ! What will happen to CSV Files with Junk (empty) data 
+ 
+
+
+
+Parent Folder
+    |-- Year 
+        |-- Month
+            |-- Day 
+                |-- day.csv (All flight that took place in a day)
+                |-- Landings Folder 
+                    |--a.csv
+                    |--b.csv
+                    |--c.csv
+
+
+# Unit Tests
+Split Large CSV Files
+    Check for Correct Folder Placement
+    Header info is Correct
+    Run Parser and check through data manually to see if it matches
+    Check for edge cases, empty file, handling incorrect file types ...
+    Validate Calculations 
+
+
+
+
+    

@@ -1,0 +1,5 @@
+Discovered Bugs:
+1. Midnight flights past 11:59:59 will be considered as new day
+2. If plane lands and takens off again, will only record first approach
+3. If partition is ran more than twice with the same large csv program stalls
+
